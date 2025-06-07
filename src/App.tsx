@@ -1,11 +1,15 @@
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
+import {BrowserRouter} from 'react-router-dom';
+import Layout from "./components/layout"
+import {ThemeProvider} from "./components/context/theme-provider"
 
 function App() {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
-      <h1>Weather Master</h1>
-    </div>
+    <BrowserRouter>
+    <ThemeProvider defaultTheme="dark">
+      <Layout> hello </Layout>
+    </ThemeProvider>
+    </BrowserRouter>
   )
 }
 
