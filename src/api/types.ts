@@ -26,7 +26,7 @@ export interface WeatherData{
         deg: number;
     };
     sys: {
-        surise: number;
+        sunrise: number;
         sunset: number;
         country: string;
     };
@@ -45,7 +45,7 @@ export interface ForecastData {
     city: {
         name: string;
         country: string;
-        surise: number;
+        sunrise: number;
         sunset: number;
     };
 }

@@ -11,6 +11,9 @@ import {useForecastQuery} from "@/hooks/use-weather";
 import {useWeatherQuery} from "@/hooks/use-weather";
 import WeatherSkeleton  from "@/components/loading-skeleton";
 import CurrentWeather from "@/components/current-weather"
+import HourlyTemperature from "@/components/hourly-temperature"
+import WeatherDetails from "@/components/weather-details"
+import WeatherForecast from "@/components/weather-forecast"
 
 const WeatherDashboard = () => {
   const { 
@@ -117,7 +120,7 @@ const WeatherDashboard = () => {
 
     {/* Current and Hourly Weather */}
     <div className="grid gap-6">
-      <div>
+      <div className="flex flex-col lg:flex-row gap-4">
 
         {/* current weather */}
         <CurrentWeather
@@ -126,12 +129,17 @@ const WeatherDashboard = () => {
         />
 
         {/* hourly temperature */}
-        
+        <HourlyTemperature data={forecastQuery.data} />
+
       </div>
 
-      <div>
+      <div className="grid gap-6 md:grid-cols-2 items-start">
         {/* details */}
+        <WeatherDetails data={weatherQuery.data} />
+
         {/* forecast  */}
+        <WeatherForecast data={forecastQuery.data}/>
+
       </div>
     </div>
   </div>
