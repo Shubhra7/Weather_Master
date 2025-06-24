@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { ArrowDown, Droplets, Wind } from "lucide-react";
+import { ArrowDown, ArrowUp, Droplets, Wind } from "lucide-react";
 
 
 
@@ -78,7 +78,7 @@ const WeatherForecast = ({data}:WeatherForecastProps) => {
                                     {formatTemp(day.temp_min)}
                                 </span>
                                 <span className="flex items-center text-red-500">
-                                    <ArrowDown className="mr-1 h-4 w-4" />
+                                    <ArrowUp className="mr-1 h-4 w-4" />
                                     {formatTemp(day.temp_max)}
                                 </span>
                             </div>
