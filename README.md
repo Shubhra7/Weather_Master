@@ -9,7 +9,6 @@ A modern, real-time weather forecasting app built with **React**, **TypeScript**
 - ⚡ **Vite** for blazing-fast builds and HMR
 - 📊 **TanStack Query (React Query)** for optimized API data fetching and caching
 - 🎨 **Lucide React Icons** for elegant, lightweight icons
-- 🌈 **Dynamic Background Videos** based on weather conditions
 - 📏 **ESLint** and **Prettier** for consistent, clean code
 - 📦 **Sonner Toast Notifications** for user-friendly alerts
 - 🔍 **OpenWeather API** for reliable weather data
@@ -20,7 +19,6 @@ A modern, real-time weather forecasting app built with **React**, **TypeScript**
 
 - 🔍 Search real-time weather by city name
 - 📈 View temperature, humidity, wind speed, pressure, and more
-- 🌄 Dynamic background video changes based on current weather (clear, rain, clouds, snow, thunderstorm, mist)
 - 🛠️ Type-safe, scalable codebase using TypeScript
 - ⚙️ Optimized API handling with **TanStack Query**
 - 🚀 Instant hot reload with **Vite**
