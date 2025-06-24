@@ -31,40 +31,6 @@ A modern, real-time weather forecasting app built with **React**, **TypeScript**
 
 ---
 
-## 📚 Getting Started
-
-### 📦 Clone the repository:
-
-git clone https://github.com/Shubhra7/Weather_Master.git
-cd Weather_Master
-📦 Install dependencies:
-bash
-Copy
-Edit
-npm install
-🚀 Run the development server:
-bash
-Copy
-Edit
-npm run dev
-📦 Build for production:
-bash
-Copy
-Edit
-npm run build
-🛠️ ESLint + TypeScript Setup
-This project uses a modern ESLint config with verbatimModuleSyntax enabled.
-When importing only types, use import type
-
-ts
-Copy
-Edit
-import type { ToasterProps } from 'sonner'
-📦 Recommended ESLint Plugins (Optional)
-eslint-plugin-react-x
-
-eslint-plugin-react-dom
-
 🤝 Contributing
 Pull requests are welcome! Feel free to fork and submit your improvements.
 
