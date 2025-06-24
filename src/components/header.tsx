@@ -28,6 +28,7 @@ const Header = () => {
             <div onClick={()=> setTheme(isDark ? "light":"dark")}
                 className={`flex items-center cursor-pointer transition-transform duration-500
                     ${isDark ? "rotate-180" : "rotate-0"}
+                    mt-2
                     `}
                 >
                 {isDark ? (
