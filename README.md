@@ -1,54 +1,41 @@
-# React + TypeScript + Vite
+# 🌦️ Weather Master
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, real-time weather forecasting app built with **React**, **TypeScript**, and **Vite**. Powered by the **OpenWeather API**, it delivers clean visuals, dynamic backgrounds, and seamless performance.
+---
 
-Currently, two official plugins are available:
+## 📦 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ **React** + **TypeScript**
+- ⚡ **Vite** for blazing-fast builds and HMR
+- 📊 **TanStack Query (React Query)** for optimized API data fetching and caching
+- 🎨 **Lucide React Icons** for elegant, lightweight icons
+- 📏 **ESLint** and **Prettier** for consistent, clean code
+- 📦 **Sonner Toast Notifications** for user-friendly alerts
+- 🔍 **OpenWeather API** for reliable weather data
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- 🔍 Search real-time weather by city name
+- 📈 View temperature, humidity, wind speed, pressure, and more
+- 🛠️ Type-safe, scalable codebase using TypeScript
+- ⚙️ Optimized API handling with **TanStack Query**
+- 🚀 Instant hot reload with **Vite**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🖥️ Demo
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+👉 [Live Preview on Vercel](https://weather-master-7zws.vercel.app/)
+
+---
+
+🤝 Contributing
+Pull requests are welcome! Feel free to fork and submit your improvements.
+
+📌 Author
+Shubhrajit Ghosh
+GitHub 
+
+
